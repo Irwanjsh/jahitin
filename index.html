@@ -6,9 +6,40 @@
     <meta name="description" content="JahitIn adalah platform penghubung pelanggan dengan penjahit lokal untuk pemesanan baju custom pas di badan secara online.">
     <link rel="canonical" href="https://irwanjsh.github.io/jahitin/" />
     <title>JahitIn - Jahit Baju Custom Pas di Badan</title>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://irwanjsh.github.io/jahitin/#organization",
+          "name": "JahitIn",
+          "url": "https://irwanjsh.github.io/jahitin/",
+          "logo": "https://irwanjsh.github.io/jahitin/favicon.ico",
+          "description": "Platform penghubung pelanggan dengan penjahit lokal untuk pemesanan baju custom pas di badan secara online.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bandung",
+            "addressRegion": "Jawa Barat",
+            "addressCountry": "ID"
+          }
+        },
+        {
+          "@type": "Service",
+          "name": "Jahit Baju Custom Online",
+          "provider": {
+            "@id": "https://irwanjsh.github.io/jahitin/#organization"
+          },
+          "areaServed": "Indonesia",
+          "description": "Jasa pembuatan pakaian custom pas di badan langsung dari penjahit lokal berpengalaman."
+        }
+      ]
+    }
+    </script>
     
     <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
     
     <!-- Google Fonts: Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +50,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
@@ -209,7 +242,7 @@
                     </div>
                     <div class="mt-6 pt-4 border-t border-slate-100 flex items-center gap-3">
                         <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" 
-                             alt="Siti A." class="w-10 h-10 rounded-full object-cover border border-slate-200">
+                             alt="Siti A." class="w-10 h-10 rounded-full object-cover border border-slate-200" loading="lazy" decoding="async">
                         <div>
                             <p class="text-xs font-bold text-slate-900">Siti A.</p>
                             <p class="text-[11px] text-slate-500">Mahasiswi - Bandung</p>
@@ -229,7 +262,7 @@
                     </div>
                     <div class="mt-6 pt-4 border-t border-slate-100 flex items-center gap-3">
                         <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" 
-                             alt="Budi R." class="w-10 h-10 rounded-full object-cover border border-slate-200">
+                             alt="Budi R." class="w-10 h-10 rounded-full object-cover border border-slate-200" loading="lazy" decoding="async">
                         <div>
                             <p class="text-xs font-bold text-slate-900">Budi R.</p>
                             <p class="text-[11px] text-slate-500">Pekerja Swasta - Jakarta</p>
@@ -249,7 +282,7 @@
                     </div>
                     <div class="mt-6 pt-4 border-t border-slate-100 flex items-center gap-3">
                         <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" 
-                             alt="Ibu Rina" class="w-10 h-10 rounded-full object-cover border border-slate-200">
+                             alt="Ibu Rina" class="w-10 h-10 rounded-full object-cover border border-slate-200" loading="lazy" decoding="async">
                         <div>
                             <p class="text-xs font-bold text-slate-900">Ibu Rina</p>
                             <p class="text-[11px] text-slate-500">Mitra Penjahit - Cimahi</p>
